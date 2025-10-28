@@ -17,7 +17,7 @@ export default function Navbar() {
       <div className="flex items-center gap-3">
         <Image
           src="/logo.jpg"
-          alt="logo"
+          alt="logo.jpg"
           width={60}
           height={60}
           className="rounded-full border border-gray-300 object-cover"

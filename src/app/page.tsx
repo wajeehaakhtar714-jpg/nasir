@@ -14,7 +14,7 @@ export default function HomePage() {
         <div className="grid md:grid-cols-3 gap-8 mt-10">
           {[
             { name: "Pepperoni Pizza", desc: "Crispy crust with cheesy toppings", img:"/pizza.jpg" },
-            { name: "Cheese Burger", desc: "Juicy beef patty with melted cheese", img: "/burger.jpg" },
+            { name: "Chease Burger", desc: "Juicy beef patty with melted cheese", img: "/burger.jpg" },
             { name: "Crispy Fries", desc: "Golden and crunchy fries", img: "/fries.jpg" },
           ].map((item, i) => (
             <div key={i} className="bg-white rounded-2xl shadow-md p-5 hover:shadow-lg transition">
@@ -42,7 +42,7 @@ export default function HomePage() {
       <section id="contact" className="min-h-screen scroll-mt-24">
         <h2 className="text-4xl font-bold mb-4">Contact Us 📞</h2>
         <p className="text-gray-700 text-lg">📍 Address: Main Food Street, Karachi</p>
-        <p className="text-gray-700 text-lg">📞 Phone: +92 300 1234567</p>
+        <p className="text-gray-700 text-lg">📞</p>
         <p className="text-gray-700 text-lg">📧 Email: info@foodmania.com</p>
       </section>
     </div>
